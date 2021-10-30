@@ -9,6 +9,7 @@ Live site link [Visit here](https://yoga-services-289e0.web.app/).
 *  User  managed by Google firebase.
 *  Mongo db is used as databased.
 *  Heroku is used as server hosting.
+*  Admin can Manage all of order and event by Dashboard.
 
 *  There are router in this website.
 *  This project is builds with React js.
