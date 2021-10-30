@@ -1,0 +1,23 @@
+[
+  {
+    "price": 2000,
+    "picture": "https://i.ibb.co/XkkP7rk/xservices2-jpg-pagespeed-ic-T-OY2-P6jf.webp",
+    "name": "Hilary Williams",
+    "about": "Amet cupidatat deserunt do adipisicing sint.",
+    "details": "Fugiat adipisicing sunt aliquip aliqua culpa sint velit consectetur aute commodo quis. Non sint ullamco duis ipsum nulla aliqua tempor et amet enim ut quis in. "
+  },
+  {
+    "price": 1000,
+    "picture": "https://i.ibb.co/CJzsnL1/xservices3-jpg-pagespeed-ic-5m-Y-d-Bjr-Ra.webp",
+    "name": "Hilary Williams",
+    "about": "Amet cupidatat deserunt do adipisicing sint.",
+    "details": "Fugiat adipisicing sunt aliquip aliqua culpa sint velit consectetur aute commodo quis. Non sint ullamco duis ipsum nulla aliqua tempor et amet enim ut quis in. "
+  },
+  {
+    "price": 1499,
+    "picture": "https://i.ibb.co/850hDsX/xservices1-jpg-pagespeed-ic-Aq-Ipi-Ee-Pi.webp",
+    "name": "Hilary Williams",
+    "about": "Amet cupidatat deserunt do adipisicing sint.",
+    "details": "Fugiat adipisicing sunt aliquip aliqua culpa sint velit consectetur aute commodo quis. Non sint ullamco duis ipsum nulla aliqua tempor et amet enim ut quis in. "
+  }
+]
