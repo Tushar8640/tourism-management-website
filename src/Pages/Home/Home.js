@@ -3,6 +3,7 @@ import Banner from "../../Component/Banner/Banner";
 import { Link } from "react-router-dom";
 import Faq from "../../Component/Faq/Faq";
 import Welcome from "../../Component/Welcome/Welcome";
+import Features from "../../Component/Features/Features";
 
 const Home = () => {
   const [trips, setTrips] = useState([]);
@@ -23,6 +24,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <Welcome/>
+      <Features/>
 
       {isLoading ? (
         <div className="text-center my-5">
