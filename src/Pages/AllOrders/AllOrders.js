@@ -62,12 +62,13 @@ const AllOrders = () => {
         {events.map((item, i) => (
           <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div className="mx-2 my-4 shadow-sm p-2">
+              <img className="w-100 mb-3" src={item.eventImage} alt="" />
               <h1 className="fs-4">
                 {" "}
                 {parseInt(i) + 1}. {item.eventName}
               </h1>
               <h1 className="fs-5">Name: {item.userName}</h1>
-              <h1 className="fs-6">{item.email}</h1>
+              {/* <h1 className="fs-6 wrapper">{item.email}</h1> */}
               <p className="my-1"> Date : {item.date}</p>
               <p className="my-1"> Location : {item.address}</p>
               <div className="d-flex  justify-content-lg-between">

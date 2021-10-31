@@ -10,7 +10,7 @@ const Features = () => {
           <div className="shadow text-center px-3 py-4">
             <img className="w-25"  src={"https://i.ibb.co/q9S1wvb/medical-care.png"} alt="" /> 
             <h1 className="fs-4 my-3">Emergency Medic</h1>
-            <p>We have emergency medical facility for you.And have Specialized dectors.For emergency situation we will provide ambullance and all necessary other equipment.</p>
+            <p>We have emergency medical facility for you.And have Specialized dectors.For emergency situation we will provide ambullance and all necessary equipment.</p>
           </div>
         </div>
         <div className="col-12 col-md-4 mb-3">

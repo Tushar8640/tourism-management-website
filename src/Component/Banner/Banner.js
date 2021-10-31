@@ -13,7 +13,13 @@ const Banner = () => {
         }}
       >
         <div className="d-flex align-content-center justify-content-center">
-          <div className="mt-5 w-50">
+          <div
+           style={{
+           
+            marginTop: "10%"
+            
+          }}
+          className=" w-50">
             <h1 className="purple-text">TRAVEL MORE TO DISCOVER YOURSELF</h1>
             <p className="text-muted ms-1">“Do not follow where the path may lead. Go instead where there is no path and leave a trail” – Ralph Waldo Emerson</p>
             <button className="myButton">Lets go</button>
