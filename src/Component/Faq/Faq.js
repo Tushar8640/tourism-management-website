@@ -103,7 +103,7 @@ Take care of yourself. Get rest and stay hydrated. Take over-the-counter medicin
                 aria-controls="panelsStayOpen-collapseThree"
               >
                   <span className="purple-text">
-                Accordion Item #3
+                Is there any issu to air flyte?
                 </span>
               </button>
             </h2>
