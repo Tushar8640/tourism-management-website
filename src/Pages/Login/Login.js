@@ -22,6 +22,7 @@ const Login = () => {
   };
   return (
     <div className="my-5 row container m-auto">
+      <h1 className="my-4 purple-text text-center">Please Login !!</h1>
       <div className="col-5"></div>
       <div className="col-6">
         {" "}

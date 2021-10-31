@@ -53,13 +53,13 @@ const MyOrders = () => {
     );
   }
   return (
-    <div className="container mx-auto">
-      <h1>My orders will appear here</h1>
+    <div className="container mx-auto my-5">
+      <h1 className="text-center purple-text">My orders!!</h1>
       <div className="row">
         {orders?.map((item) => (
           <div key={item._id} className="shadow-sm my-3 col-12 px-3 col-lg-6 mt-3">
             <div className="d-flex flex-column flex-lg-row">
-              <img src={item.eventImage} alt="" />
+              <img className="w-100" src={item.eventImage} alt="" />
               <div className="ms-3 my-2">
                   <h1 className="fs-3">{item.eventName}</h1>
                 <h6 className="text-warning fs-5">{item.status}</h6>

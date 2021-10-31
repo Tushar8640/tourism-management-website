@@ -33,11 +33,13 @@ const Nav = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item mt-lg-2">
-                <NavLink className="nav-link" to="/myorders">
-                  My Orders
-                </NavLink>
-              </li>
+              {user.email && (
+                <li className="nav-item mt-lg-2">
+                  <NavLink className="nav-link" to="/myorders">
+                    My Events
+                  </NavLink>
+                </li>
+              )}
               {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/manageevent">
                   Manage All event
@@ -48,19 +50,18 @@ const Nav = () => {
                   Add event
                 </NavLink>
               </li> */}
-              { user.email &&
-              <li className="nav-item  ">
-                <NavLink className="nav-link" to="/dashboard">
-                 <span className="myOutlineButton">Dashboard</span> 
-                </NavLink>
-              </li>
-              }
+              {user.email && (
+                <li className="nav-item  ">
+                  <NavLink className="nav-link" to="/dashboard">
+                    <span className="myOutlineButton">Dashboard</span>
+                  </NavLink>
+                </li>
+              )}
             </ul>
 
             <div className="d-flex">
               {(user?.email && (
                 <div>
-                 
                   <button onClick={handleLogOut} className="myOutlineButton">
                     LogOut
                     <span>
@@ -88,20 +89,20 @@ const Nav = () => {
                   <Link to="/login">
                     <button className="myOutlineButton">
                       <span>
-                      <svg
-                        className="logout-icon"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-                        ></path>
-                      </svg>
+                        <svg
+                          className="logout-icon"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                          ></path>
+                        </svg>
                       </span>
                       Login
                     </button>

@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="mt-5 w-50">
             <h1 className="purple-text">TRAVEL MORE TO DISCOVER YOURSELF</h1>
             <p className="text-muted ms-1">“Do not follow where the path may lead. Go instead where there is no path and leave a trail” – Ralph Waldo Emerson</p>
-            <button className="myButton">Get Started</button>
+            <button className="myButton">Lets go</button>
           </div>
         </div>
       </div>

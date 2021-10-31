@@ -15,10 +15,11 @@ const Addevent = () => {
       body: JSON.stringify(data),
     });
     console.log(data);
+    alert("Event Added")
   };
   return (
     <div className="container mx-auto my-5">
-      <h1  className="purple-text text-center mb-4">This is add event</h1>
+      <h1  className="purple-text text-center mb-4">Add More Event</h1>
       <div className="w-full ">
         <form onSubmit={handleSubmit(onSubmit)}>
           {/* register your input into the hook by invoking the "register" function */}

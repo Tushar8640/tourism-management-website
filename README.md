@@ -1,13 +1,13 @@
 # Tour Management website
 
-Live site link [Visit here](https://yoga-services-289e0.web.app/).
+Live site link [Visit here](https://tourism-event-management.web.app/).
 
 
 
 ## About My projects
 *  In this project ,the people can select their packege for tour plan
 
-*  I used bootstrap  as css frame work.
+*  I used bootstrap  as css framework.
 *  User  managed by Google firebase.
 *  Mongo db is used as databased.
 *  Heroku is used as server hosting.

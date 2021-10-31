@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Banner from "../../Component/Banner/Banner";
 import { Link } from "react-router-dom";
 import Faq from "../../Component/Faq/Faq";
+import Welcome from "../../Component/Welcome/Welcome";
 
 const Home = () => {
   const [trips, setTrips] = useState([]);
@@ -21,6 +22,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <Welcome/>
 
       {isLoading ? (
         <div className="text-center my-5">
@@ -50,10 +52,9 @@ const Home = () => {
                   <img src={trip.picture} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h3>Place : {trip.name}</h3>
-                    <p>Duration: {trip.duration}</p>
+                    <p>Duration: {trip.duration} days</p>
                     <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      {trip.about}
                     </p>
                     <Link to={`placeorder/${trip._id}`} className="myButton">
                       Book Now

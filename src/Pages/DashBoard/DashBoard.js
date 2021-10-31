@@ -9,7 +9,7 @@ const DashBoard = () => {
   const [control, setControl] = useState("ManageOrders");
   return (
     <div className="container-fluid my-5">
-      <div className="purple-bg w-50  mx-auto"> <p className="text-center text-white py-3">Welcome!!To Dashboard {user?.displayName}</p></div>
+      <div className="purple-bg w-50  mx-auto"> <p className="text-center text-white py-3">Welcome To Dashboard !! "{user?.displayName}"</p></div>
       <div className="row">
         <div className="col-md-2 mt-4 h-auto purple-bg second-color-bg  shadow">
           <ul className="navbar-nav d-flex flex-column align-content-center">
@@ -17,7 +17,7 @@ const DashBoard = () => {
               onClick={() => setControl("ManageOrders")}
               className="nav-item dash-li btn btn-outline-light mt-4"
             >
-              Manage Orders
+              Manage Events
             </li>
             <li
               onClick={() => setControl("AddEvent")}
